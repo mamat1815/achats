@@ -1,0 +1,25 @@
+# Ignore git files
+.git
+.gitignore
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and cache files
+*.log
+*.cache
+
+# Ignore node_modules and vendor folders (only for local builds)
+node_modules/
+vendor/
+
+# Ignore uploads (you may want to map this as a volume instead)
+app/uploads/
+
+# Ignore environment files
+.env
